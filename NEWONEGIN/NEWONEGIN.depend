@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1726261948 source:c:\users\kolys\onedrive\рабочий стол\onegin\newonegin\main.cpp
+	<stdio.h>
+	<assert.h>
+	<malloc.h>
+
