@@ -1,0 +1,113 @@
+#include "sort.h"
+
+void BubbleSort( void* data_elements, int number_of_elements , size_t size_of_element, int (* comparator) ( const void*, const void* ) )
+{
+    int end_sort = 1;
+
+    //printf("in Bubble:\n");
+
+    while(end_sort)
+    {
+        end_sort = 0;
+        //printf("%d\n", number_of_strings);
+        for( int i = 0; i < ( number_of_elements - 1 ) ; i++ )
+        {
+            /*printf("%d\n", i);
+            printf("%c", main_strings[i].string_begin[0]);*/
+            if( comparator( ( (char*)data_elements + i ), ( (char*)data_elements + i + 1 ) ) )
+                {
+                    //printf("swapping:\n");
+                    end_sort++;
+                    SwapElements( ( (char*)data_elements + i ), ( (char*)data_elements + i + 1 ), size_of_element );
+                }
+            //printf("ff\n");
+        }
+        //printf("gg\n");
+    }
+    return;
+}
+
+
+bool DirectComparetorStrings( const char* string_1, const char* string_2 )
+{
+    //printf("(%d)\n", strcmp( "bbb" , "aaaa" ));
+    return ( strcmp( string_1 , string_2 ) > 0 ) ? 0: 1;
+}
+
+
+int ReversedComparetorStrings( const void* element_1, const void* element_2 )
+{
+    DataStrings string_1 = *(const DataStrings*)element_1;
+    DataStrings string_2 = *(const DataStrings*)element_2;
+
+    printf("swap");
+
+    int i = string_1.string_len - 2;
+    int j = string_2.string_len - 2;
+
+    int low_1 = 'a';
+    int low_2 = 'b';
+
+    while( i && j )
+    {
+        while( !isalpha( string_1.string_begin[i] ) && i)
+        {
+            i--;
+        }
+        while( !isalpha( string_2.string_begin[j] ) && j)
+        {
+            j--;
+        }
+
+        low_1 = tolower( string_1.string_begin[i] );
+        low_2 = tolower( string_2.string_begin[j] );
+
+        if( low_1 != low_2 )
+        {
+            if( low_1 < low_2 )
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        else
+        {
+            i--;
+            j--;
+        }
+    }
+    return (i < j) ? 0 : 1;
+}
+
+
+void SwapElements( void* element_1 , void* element_2, size_t size_of_element )
+{
+    assert( element_1 != NULL );
+    assert( element_2 != NULL );
+
+    int a = (DataStrings*)element_1;
+    int b = (int)element_2;
+
+    element_1 = (*)a;
+    element_2 = (void*)b;
+
+
+    //printf("1)%3d ", string_1 -> string_len);
+    //printf("2)%3d\n", string_2 -> string_len);
+
+    /*for( int i = 0; i < size_of_element; i++ )
+    {
+        string_swapper = *element_1[i];
+                         *element_1[i] = *element_2[i];
+                                         *element_2[i] = *element_1[i];
+    }*/
+
+    //printf("1)%3d ", string_1 -> string_len);
+    //printf("2)%3d\n", string_2 -> string_len);
+
+    return;
+}
+

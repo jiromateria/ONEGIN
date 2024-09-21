@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="text_work.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3261" topLine="97" />
+		<BrowseMarks positions="2233,2465" />
+	</File>
+	<File name="sort_text.txt" open="1" top="0" tabpos="8">
+		<Cursor position="1846" topLine="10" />
+		<BrowseMarks positions="" />
+	</File>
+	<File name="onegin.h" open="1" top="0" tabpos="7">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="text_work.h" open="1" top="0" tabpos="6">
+		<Cursor position="231" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="703" topLine="0" />
+	</File>
+	<File name="sort.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="2131" topLine="78" />
+	</File>
+	<File name="text.txt" open="1" top="0" tabpos="2">
+		<Cursor position="33583" topLine="0" />
+	</File>
+	<File name="sort.h" open="1" top="0" tabpos="5">
+		<Cursor position="160" topLine="0" />
+		<BrowseMarks positions="" />
+	</File>
+</BrowseTracker_layout_file>
