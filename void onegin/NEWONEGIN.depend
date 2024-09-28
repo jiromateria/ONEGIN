@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1726261948 source:c:\users\kolys\onedrive\рабочий стол\onegin\newonegin\main.cpp
+	<stdio.h>
+	<assert.h>
+	<malloc.h>
+
+1726935574 source:c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\main.cpp
+	"text_work.h"
+	"sort.h"
+
+1726930465 c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\onegin.h
+	<stdio.h>
+	<assert.h>
+	<malloc.h>
+	<string.h>
+	<ctype.h>
+
+1726929016 c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\text_work.h
+	"onegin.h"
+
+1726935574 c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\sort.h
+	"onegin.h"
+
+1726933736 source:c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\sort.cpp
+	"sort.h"
+
+1726930079 source:c:\users\kolys\onedrive\рабочий стол\onegin\newonegin cont 1\text_work.cpp
+	"text_work.h"
+
+1727539365 source:c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\main.cpp
+	"text_work.h"
+	"sort.h"
+
+1726929016 c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\text_work.h
+	"onegin.h"
+
+1726930465 c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\onegin.h
+	<stdio.h>
+	<assert.h>
+	<malloc.h>
+	<string.h>
+	<ctype.h>
+
+1727535267 c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\sort.h
+	"onegin.h"
+
+1727539398 source:c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\text_work.cpp
+	"text_work.h"
+
+1727539152 source:c:\users\kolys\onedrive\рабочий стол\onegin\onegin upgrade\sort.cpp
+	"sort.h"
+
